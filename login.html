@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <div>
+        <input type="text" onchange="changeButtonState()" placeholder="Name"/>
+        <input type="tel"  onchange="changeButtonState()" placeholder="Phone Number"/>
+        <input type="email"  onchange="changeButtonState()" placeholder="Email"/>
+        <button disabled onclick="login()">Login</button> 
+    </div>
+    <script src="components.js"></script>
+    <script src="redirect.js"></script>
+    <script src="storage.js"></script>
+</body>
+</html>
